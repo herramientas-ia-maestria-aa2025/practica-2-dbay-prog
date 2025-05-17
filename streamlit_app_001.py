@@ -9,7 +9,7 @@ st.title("Diego Bayas")
 mlflow.set_tracking_uri("http://localhost:5000")  # cambiar en función de su servidor
 
 # Cargar modelo desde el Model Registry, revise el ejemplo de flask
-model = mlflow.sklearn.load_model("models:/diabetes_9/1")  # cambiar en función de su modelo
+model = mlflow.sklearn.load_model("models:/diabetes_4/1")  # cambiar en función de su modelo
 
 # Deslizadores para cada input del modelo
 pregnancies = st.slider("Número de embarazos", 0, 20, 1)
